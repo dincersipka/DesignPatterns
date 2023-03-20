@@ -7,7 +7,9 @@
             Singleton Example_1 = Singleton.GetInstance();
             Singleton Example_2 = Singleton.GetInstance();
 
-            Console.WriteLine(Example_1 == Example_2);
+            System.Diagnostics.Debug.WriteLine($"Example_1: {Example_1}");
+            System.Diagnostics.Debug.WriteLine($"Example_2: {Example_2}");
+            System.Diagnostics.Debug.WriteLine(Example_1 == Example_2);
         }
     }
 }
